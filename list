@@ -1,0 +1,229 @@
+1. Considerando o código abaixo, afirma-se que:
+I. Por utilizar as instruções do – while, sempre a condição de permanência na estrutura de repetição
+será executada antes do usuário poder informar a sua opção.
+II. O programa será finalizado sempre que o usuário pressionar alguma tecla diferente de q.
+III. O programa será executado enquanto o usuário não pressionar a tecla q.
+Analisando as afirmativas acima, estão corretas:
+Apenas a III.
+
+
+2. Sobre listas lineares utilizando a linguagem C, afirma-se que:
+I. Quando precisamos utilizar listas lineares que podem variar o número de elementos, podemos
+utilizar o recurso de ponteiros, fazendo com que cada elemento conheça quem é o seu próximo.
+Logo estes elementos podem ocupar espaços aleatórios da memória, conforme a disponibilidade
+dos mesmos.
+Verdadeiro
+A utilização de ponteiros em listas lineares permite que cada elemento saiba quem é o seu próximo,
+possibilitando a construção de uma estrutura encadeada dinâmica. Essa abordagem permite que os
+elementos ocupem espaços aleatórios da memória, conforme a disponibilidade dos mesmos.
+II. A lista encadeada é um exemplo de lista linear.
+Verdadeiro
+A lista encadeada é um exemplo de lista linear. Uma lista linear é um vetor no qual os dados são
+agrupados com base no mesmo tipo de dado de maneira sequencial, e os elementos do vetor não
+precisam estar necessariamente na sequência física, alocados na memória, mas sim, logicamente,
+na ordem crescente no vetor.
+III. Os vetores são um tipo de lista linear que apresenta o mecanismo onde cada elemento indica
+quem é o seu próximo.
+Falso.
+Os vetores são estruturas de dados que armazenam elementos de forma contígua na memória, e o
+acesso aos elementos é feito por meio de índices, não por meio de ponteiros que indicam o próximo
+elemento na sequência, como ocorre em listas encadeadas.
+
+
+3. Considerando o código abaixo, afirma-se que:
+I. A variável c terá o valor 10 se a variável b for maior do que 5.
+II. A variável b terá o valor 5 se a variável c for igual a 10.
+III. Independentemente do valor da variável b, o valor da variável c sempre será 15.
+R.: Apenas a I.
+
+
+
+4. Sobre filas, afirma-se que:
+I. São geralmente listas duplamente encadeadas.
+Falso: são geralmente implementadas com listas encadeadas simples, onde cada elemento possui
+um ponteiro para o próximo elemento na fila.
+II. Todo novo elemento será inserido no final.
+Verdadeiro: Em uma fila, os novos elementos são adicionados à extremidade posterior da estrutura,
+mantendo a ordem de chegada dos elementos.
+III. O último elemento inserido será o primeiro a sair.
+Falso:
+Uma fila é uma estrutura de dados que segue o conceito de "first in, first out" (FIFO), onde os
+elementos são atendidos ou utilizados sequencialmente na ordem em que foram armazenados. Em
+uma fila, as operações de inserção são feitas em uma extremidade e as operações de remoção são
+feitas na outra extremidade. Um exemplo prático desse conceito é uma fila de um banco, onde as
+primeiras pessoas que chegam são as primeiras a serem atendidas.
+Portanto, uma fila é uma estrutura de dados que mantém a ordem de chegada dos elementos
+e segue o princípio de que o primeiro elemento a entrar é o primeiro a sair.
+
+
+5. Sobre os sistemas numéricos, afirma-se que:
+I. O número 0100121 está representado corretamente no sistema binário.
+II. O número 5 no sistema decimal corresponde ao número 00000101 no sistema binário.
+III. O sistema hexadecimal, além dos algarismos 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 e 10, também utiliza as
+letras A, B, C, D, E e F na sua representação.
+Analisando as afirmativas acima, estão corretas:
+F-V-F
+
+
+
+6. Sobre listas duplamente encadeadas, afirma-se que:
+I. Devem apresentar um ponteiro específico que indica o seu início.
+II. Devem apresentar um ponteiro específico que indica o seu fim.
+III. Cada elemento é composto exclusivamente pelos dados que ele contém, além do ponteiro que
+indica quem é o próximo elemento.
+Apenas a I e a II.
+Uma lista duplamente encadeada é uma estrutura de dados linear na qual cada elemento possui um
+ponteiro para o próximo elemento e um ponteiro para o elemento anterior. Isso permite acessar tanto
+o elemento seguinte quanto o anterior a partir de um determinado elemento. Com uma lista
+duplamente encadeada, é possível percorrer a estrutura em ambas as direções, avançando ou
+retrocedendo, o que não é possível em uma lista encadeada simples.
+
+
+
+7. Sobre árvores binárias, afirma-se que:
+I. Cada elemento, além dos dados que ele contém, também deve indicar quem é o elemento à
+esquerda, o elemento do centro e o elemento à direita.
+II. Existe um limite de elementos que podem ser inseridos, normalmente 1024 elementos.
+III. Visando o uso otimizado de árvores binárias, é interessante que elas estejam balanceadas.
+Apenas a III.
+As árvores binárias são estruturas de dados compostas por um conjunto finito de elementos que
+estão vazios ou são divididos em três subconjuntos. O primeiro subconjunto contém um único
+elemento chamado raiz da árvore, enquanto os outros dois subconjuntos são em si mesmos árvores
+binárias, denominadas subárvores esquerda e direita da árvore original. Cada elemento de uma
+árvore binária é chamado de nó da árvore. Uma árvore binária é caracterizada pela composição de
+uma raiz e duas subárvores (direita e esquerda), onde cada subárvore pode estar vazia.
+
+
+
+8. Considerando vetores e strings, afirma-se que:
+I. As strings são vetores do tipo char e sempre tem o final do seu conteúdo indicado pelo caractere
+\0.
+II. Se quisermos armazenar a string TECNOLOGIA DA INFORMAÇÃO, precisamos definir a variável
+assim: char nome[25];
+III. Um vetor declarado como int numeros[10] terá como posições válidas de 1 a 10.
+Apenas a I e a II.
+
+
+
+9. Considerando as variáveis em Linguagem C, afirma-se que:
+I. Representam espaços de memória em disco onde os dados a serem processados pelos
+programas são armazenados.
+II. Devem ser declaradas através de tipos específicos de dados, sendo que cada tipo tem uma
+determinada capacidade de armazenamento.
+III. Ao escrevermos a linha char x; estamos definindo que teremos uma variável chamada x que
+poderá armazenar valores do tipo char.
+Apenas a II e a III.
+
+
+10. Considerando o trecho de código abaixo, afirma-se que:
+int *valor1;
+int valor2 = 5;
+valor1 = &valor2;
+printf(“\n%d”,valor1); // vai dar merda! %p
+printf(“\n%d”,valor2);
+printf(“\n%d”,*valor1);
+I. A linha 4 irá imprimir o endereço de memória ocupado pela variável valor1.
+Se não tivesse escrito com %d, sim
+II. A linha 5 irá imprimir o valor que está na variável valor1.
+III. A linha 6 irá imprimir o valor que está na variável valor2.
+Apenas a III.
+
+
+
+Atividade 2
+1. Determina-se uma posição chamada de pivô. Todos os elementos menores do que o elemento
+que está na posição pivô são deslocados para a esquerda e todos os maiores são deslocados para
+a direita. De forma recursiva as listas da esquerda e da direita são submetidas ao mesmo
+processamento, até o final do processamento, onde todos os elementos estarão ordenados.
+Estamos falando de qual método de ordenação?
+R.: QuickSort
+Uma tabela Hash é uma estrutura de dados que tem como função espalhar elementos de forma
+desordenada em uma tabela. A diferença fundamental em relação aos métodos de busca
+tradicionais é que a tabela Hash utiliza uma chave para associar cada elemento a uma posição na
+tabela, que corresponde a um índice específico. Essa chave pode ser parte dos dados do elemento
+e é utilizada para realizar a pesquisa de forma eficiente, permitindo que a busca retorne diretamente
+à posição exata onde o elemento está inserido, sem a necessidade de percorrer toda a tabela.
+
+
+
+2. Sobre a tabela Hash, afirma-se que:
+I. Quando existe uma colisão, temos apenas uma forma de resolução, que é o endereçamento
+aberto.
+→aberto ou encadeamento
+II. Apresenta-se como uma forma de armazenar e recuperar informações através de uma fórmula de
+cálculo.
+III. Colisão é quando um elemento é atribuído para uma posição que já esteja ocupada por outro
+elemento.
+R.: II e III
+
+
+3. Divide recursivamente a lista em segmentos até que cada segmento fique apenas com um
+elemento. Aplica-se a ordenação reagrupando os segmentos até voltar a ter o vetor completo. Pode
+apresentar problema em relação ao consumo de memória. Estamos falando de qual método de
+ordenação?
+R.: MergeSort
+A busca por interpolação é um método de busca aplicado em vetores ordenados. Este método é
+uma extensão da busca sequencial e é semelhante à busca binária, porém é mais eficiente quando
+os valores no vetor estão distribuídos de forma uniforme entre a posição inicial e final do vetor.
+
+
+
+4. Sobre a busca por interpolação, afirma-se que:
+I. Tem funcionamento parecido com o a busca binária, porém será eficiente se os elementos
+estiverem uniformemente distribuídos.
+II. Na sua fórmula considera a posição inicial e o tamanho do sub vetor.
+III. Não considera a posição relativa do item procurado no sub vetor através de um cálculo de
+percentual.
+R.: I e II
+
+
+
+5. Utiliza o mesmo princípio do que o método da inserção direta, porém a lista é particionada em
+vários segmentos menores. Este particionamento é efetuado através de um intervalo (gap) que é
+diminuído até chegar a 1, onde ao término deste processamento todos os elementos estarão
+ordenados. Estamos falando de qual método de ordenação?
+R.: ShellSort.
+
+
+6. Sobre a busca sequencial, afirma-se que:
+I. Precisa percorrer todos os elementos para poder afirmar que um elemento buscado não
+existe.
+II. Ao buscar um elemento que possa ser encontrado mais do que uma vez na lista,
+obrigatoriamente deve percorrer toda a lista.
+III. A demora pela busca de um elemento não depende diretamente do número de elementos
+existentes na lista.
+R.: I e II
+
+
+7. Começa pelo início da lista, percorrendo o restante da lista à direita em busca do menor elemento.
+Caso o menor elemento seja menor do que o elemento que está na posição atual, efetua a troca
+entre eles e desloca a posição atual para a próxima posição à direita repetindo a operação. Quando
+a posição atual for a última posição da lista todos os elementos estarão ordenados. Estamos falando
+de qual método de ordenação?
+R.: SelectionSort
+
+
+
+8. Compara os elementos vizinhos (dois a dois), trocando-os de posição se estiverem na ordem
+incorreta, percorrendo várias vezes todos os elementos até que a lista esteja ordenada. Estamos
+falando de qual método de ordenação?
+R.: BubbleSort
+
+
+
+9. Assim como fazemos quando queremos organizar as cartas de um baralho, neste método
+parte-se do segundo elemento, buscando à sua esquerda a posição correta do mesmo e
+colocando-o nesta posição. Na sequência passa-se ao próximo elemento da direita e efetua-se a
+mesma operação. Quando chegar ao final da lista todos os elementos estarão ordenados. Estamos
+falando de qual método de ordenação?
+R.: InsertionSort
+
+
+
+10. Coloca os elementos organizados na lista através de uma estrutura que lembra uma árvore
+binária, porém a única regra é que o pai deve ser maior do que os seus filhos, onde o primeiro pai
+sempre será o maior elemento da lista. Troca-se o primeiro pai com o último elemento da lista e
+realiza o processamento novamente, porém desconsiderando o último elemento que já estará
+ordenado. Segue-se esta sistemática até que todos os elementos estejam ordenados. Estamos
+falando de qual método de ordenação?
+R.: HeapSort
